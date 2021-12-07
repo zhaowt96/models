@@ -32,8 +32,8 @@ from __future__ import division
 from __future__ import print_function
 
 import tensorflow as tf
-
-import tf_slim as slim
+slim = tf.contrib.slim
+#import tf_slim as slim
 
 arg_scope = slim.arg_scope
 DATA_FORMAT_NCHW = 'NCHW'

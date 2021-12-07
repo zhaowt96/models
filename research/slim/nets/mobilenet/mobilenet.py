@@ -399,7 +399,7 @@ def mobilenet(inputs,
 
 def global_pool(input_tensor,
                 use_reduce_mean_for_pooling=False,
-                pool_op=tf.nn.avg_pool2d):
+                pool_op=tf.nn.avg_pool):
   """Applies avg pool to produce 1x1 output.
 
   NOTE: This function is funcitonally equivalenet to reduce_mean, but it has
