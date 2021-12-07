@@ -22,8 +22,8 @@ as well as
 Huang et al. (https://arxiv.org/abs/1611.10012)
 """
 
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 
 from object_detection.meta_architectures import faster_rcnn_meta_arch
 from object_detection.utils import variables_helper

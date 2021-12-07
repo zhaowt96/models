@@ -17,7 +17,7 @@ from typing import Optional, Tuple
 # Import libraries
 import numpy as np
 import tensorflow as tf
-import tensorflow.compat.v1 as tf1
+import tensorflow as tf1
 
 from tensorflow.python.tpu import tpu_function  # pylint: disable=g-direct-tensorflow-import
 

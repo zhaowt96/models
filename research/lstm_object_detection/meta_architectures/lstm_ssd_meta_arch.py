@@ -24,7 +24,7 @@ for details.
 """
 import abc
 import re
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 from object_detection.core import box_list_ops
 from object_detection.core import matcher

@@ -5,8 +5,8 @@ from __future__ import print_function
 
 import collections
 
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 
 from tensorflow.python.training import moving_averages
 from object_detection.meta_architectures import ssd_meta_arch

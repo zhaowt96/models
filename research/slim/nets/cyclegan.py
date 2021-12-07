@@ -19,8 +19,8 @@ from __future__ import print_function
 
 import numpy as np
 from six.moves import xrange  # pylint: disable=redefined-builtin
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 from tensorflow.python.framework import tensor_util
 
 

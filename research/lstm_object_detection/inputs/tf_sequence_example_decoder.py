@@ -18,8 +18,8 @@
 A decoder to decode string tensors containing serialized
 tensorflow.SequenceExample protos.
 """
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 from object_detection.core import data_decoder
 from object_detection.core import standard_fields as fields
 

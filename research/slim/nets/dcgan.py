@@ -20,8 +20,8 @@ from __future__ import print_function
 from math import log
 
 from six.moves import xrange  # pylint: disable=redefined-builtin
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 
 
 def _validate_image_inputs(inputs):

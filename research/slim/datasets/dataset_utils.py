@@ -23,7 +23,7 @@ import tarfile
 import zipfile
 
 from six.moves import urllib
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 LABELS_FILENAME = 'labels.txt'
 

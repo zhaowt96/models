@@ -24,8 +24,8 @@ from abc import abstractmethod
 
 import numpy as np
 from six.moves import zip
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 from google.protobuf import text_format
 
 from object_detection.builders import hyperparams_builder

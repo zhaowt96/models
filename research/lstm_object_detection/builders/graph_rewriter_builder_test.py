@@ -15,7 +15,7 @@
 
 """Tests for graph_rewriter_builder."""
 import mock
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 from tensorflow.contrib import layers as contrib_layers
 from tensorflow.contrib import quantize as contrib_quantize
 from tensorflow.python.framework import dtypes

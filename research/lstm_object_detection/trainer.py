@@ -26,8 +26,8 @@ from __future__ import print_function
 import functools
 import six
 from six.moves import range
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 
 from object_detection.builders import optimizer_builder
 from object_detection.core import standard_fields as fields

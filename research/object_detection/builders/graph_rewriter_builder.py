@@ -14,8 +14,8 @@
 # ==============================================================================
 """Functions for quantized training and evaluation."""
 
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 # pylint: disable=g-import-not-at-top
 try:
   from tensorflow.contrib import quantize as contrib_quantize

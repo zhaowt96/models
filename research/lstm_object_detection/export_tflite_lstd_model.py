@@ -17,7 +17,7 @@
 
 import os
 from absl import flags
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 from lstm_object_detection.utils import config_util
 

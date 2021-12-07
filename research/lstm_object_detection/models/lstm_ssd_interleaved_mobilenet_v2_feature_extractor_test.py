@@ -16,8 +16,8 @@
 """Tests for lstm_ssd_interleaved_mobilenet_v2_feature_extractor."""
 
 import numpy as np
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 from tensorflow.contrib import training as contrib_training
 
 from lstm_object_detection.models import lstm_ssd_interleaved_mobilenet_v2_feature_extractor

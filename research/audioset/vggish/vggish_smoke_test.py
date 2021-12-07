@@ -32,7 +32,7 @@ Usage:
 from __future__ import print_function
 
 import numpy as np
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 import vggish_input
 import vggish_params

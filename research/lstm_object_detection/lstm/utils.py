@@ -18,7 +18,7 @@
 from __future__ import absolute_import
 from __future__ import division
 
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 from tensorflow.contrib import framework as contrib_framework
 from tensorflow.contrib import layers as contrib_layers
 from tensorflow.python.training import moving_averages

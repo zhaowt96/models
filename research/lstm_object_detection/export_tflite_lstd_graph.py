@@ -84,7 +84,7 @@ python lstm_object_detection/export_tflite_lstd_graph.py \
        "
 """
 
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 from lstm_object_detection import export_tflite_lstd_graph_lib
 from lstm_object_detection.utils import config_util

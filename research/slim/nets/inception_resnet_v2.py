@@ -25,8 +25,8 @@ from __future__ import division
 from __future__ import print_function
 
 
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 
 
 def block35(net, scale=1.0, activation_fn=tf.nn.relu, scope=None, reuse=None):

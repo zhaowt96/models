@@ -17,7 +17,7 @@
 
 import os
 import numpy as np
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 from google.protobuf import text_format
 from tensorflow.core.example import example_pb2

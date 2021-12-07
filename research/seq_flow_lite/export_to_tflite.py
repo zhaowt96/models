@@ -21,7 +21,7 @@ import os
 
 from absl import app
 from absl import flags
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 from layers import base_layers # import seq_flow_lite module
 from layers import projection_layers # import seq_flow_lite module

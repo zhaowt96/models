@@ -14,7 +14,7 @@
 # ==============================================================================
 # Lint as: python3
 """Metric functions."""
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 
 def classification_metric(per_example_loss, label_ids, logits):

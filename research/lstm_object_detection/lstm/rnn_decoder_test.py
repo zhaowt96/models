@@ -20,7 +20,7 @@ from __future__ import division
 from __future__ import print_function
 
 import numpy as np
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 from tensorflow.contrib import layers as contrib_layers
 from tensorflow.contrib import rnn as contrib_rnn

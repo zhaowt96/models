@@ -34,7 +34,7 @@ import sys
 
 from six.moves import range
 from six.moves import zip
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 from datasets import dataset_utils
 

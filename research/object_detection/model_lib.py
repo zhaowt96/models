@@ -22,7 +22,7 @@ import copy
 import functools
 import os
 
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 import tensorflow.compat.v2 as tf2
 import tf_slim as slim
 

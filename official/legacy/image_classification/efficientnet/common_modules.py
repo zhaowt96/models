@@ -20,7 +20,7 @@ from __future__ import print_function
 from typing import Optional, Text
 import numpy as np
 import tensorflow as tf
-import tensorflow.compat.v1 as tf1
+import tensorflow as tf1
 from tensorflow.python.tpu import tpu_function
 
 

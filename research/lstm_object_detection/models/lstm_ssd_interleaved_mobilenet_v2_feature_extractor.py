@@ -15,8 +15,8 @@
 
 """LSTDInterleavedFeatureExtractor which interleaves multiple MobileNet V2."""
 
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 
 from tensorflow.python.framework import ops as tf_ops
 from lstm_object_detection.lstm import lstm_cells

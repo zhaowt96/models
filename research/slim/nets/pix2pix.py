@@ -32,8 +32,8 @@ from __future__ import print_function
 import collections
 import functools
 
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 
 
 def pix2pix_arg_scope():

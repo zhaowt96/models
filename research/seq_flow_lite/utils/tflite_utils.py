@@ -14,7 +14,7 @@
 # ==============================================================================
 # Lint as: python3
 """Utils to convert to a TFLite model."""
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 
 def _dump_graph_in_text_format(filename, graph_def):

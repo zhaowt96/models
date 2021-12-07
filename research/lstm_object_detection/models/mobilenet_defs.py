@@ -14,8 +14,8 @@
 # ==============================================================================
 """Definitions for modified MobileNet models used in LSTD."""
 
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 from nets import mobilenet_v1
 from nets.mobilenet import conv_blocks as mobilenet_convs
 from nets.mobilenet import mobilenet

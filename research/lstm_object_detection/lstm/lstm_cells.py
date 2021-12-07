@@ -15,8 +15,8 @@
 """BottleneckConvLSTMCell implementation."""
 import functools
 
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 
 from tensorflow.contrib import rnn as contrib_rnn
 from tensorflow.contrib.framework.python.ops import variables as contrib_variables

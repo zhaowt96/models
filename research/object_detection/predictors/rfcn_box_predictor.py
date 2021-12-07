@@ -14,8 +14,8 @@
 # ==============================================================================
 
 """RFCN Box Predictor."""
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 from object_detection.core import box_predictor
 from object_detection.utils import ops
 

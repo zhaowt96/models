@@ -21,7 +21,7 @@ import json
 from absl import app
 from absl import flags
 from absl import logging
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 import input_fn_reader # import root module
 import metric_functions # import root module

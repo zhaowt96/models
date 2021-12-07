@@ -20,8 +20,8 @@ All the class prediction heads have a predict function that receives the
 `features` as the first argument and returns class predictions with background.
 """
 import functools
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 
 from object_detection.predictors.heads import head
 from object_detection.utils import shape_utils

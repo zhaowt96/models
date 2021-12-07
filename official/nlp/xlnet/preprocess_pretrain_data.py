@@ -26,7 +26,7 @@ from absl import logging
 
 import numpy as np
 
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 import sentencepiece as spm
 from official.nlp.xlnet import preprocess_utils
 

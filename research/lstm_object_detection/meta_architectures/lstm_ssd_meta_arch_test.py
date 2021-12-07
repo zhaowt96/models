@@ -22,8 +22,8 @@ from __future__ import print_function
 import functools
 
 import numpy as np
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 
 from lstm_object_detection.lstm import lstm_cells
 from lstm_object_detection.meta_architectures import lstm_ssd_meta_arch

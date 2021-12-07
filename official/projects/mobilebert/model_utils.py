@@ -16,7 +16,7 @@
 import copy
 import json
 
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 from official.modeling import tf_utils
 from official.nlp.modeling import layers

@@ -96,8 +96,8 @@ configured in the meta architecture:
 from __future__ import print_function
 import abc
 import functools
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 
 from object_detection.builders import box_predictor_builder
 from object_detection.builders import hyperparams_builder

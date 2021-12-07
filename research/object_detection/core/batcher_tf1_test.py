@@ -22,8 +22,8 @@ from __future__ import print_function
 import unittest
 import numpy as np
 from six.moves import range
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 
 from object_detection.core import batcher
 from object_detection.utils import tf_version

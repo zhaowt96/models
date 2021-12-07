@@ -27,7 +27,7 @@ import six
 from six.moves import range
 from six.moves import urllib
 from six.moves import zip
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 from official.nlp.transformer.utils import tokenizer
 from official.utils.flags import core as flags_core

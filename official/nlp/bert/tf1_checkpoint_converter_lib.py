@@ -15,7 +15,7 @@
 r"""Convert checkpoints created by Estimator (tf1) to be Keras compatible."""
 
 import numpy as np
-import tensorflow.compat.v1 as tf  # TF 1.x
+import tensorflow as tf  # TF 1.x
 
 # Mapping between old <=> new names. The source pattern in original variable
 # name will be replaced by destination pattern.

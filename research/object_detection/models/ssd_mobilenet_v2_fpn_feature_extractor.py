@@ -23,8 +23,8 @@ from __future__ import print_function
 import copy
 import functools
 from six.moves import range
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 
 from object_detection.meta_architectures import ssd_meta_arch
 from object_detection.models import feature_map_generators

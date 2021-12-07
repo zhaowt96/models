@@ -15,8 +15,8 @@
 
 """Tests for object_detection.trainer."""
 import unittest
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 from google.protobuf import text_format
 
 from object_detection.core import losses

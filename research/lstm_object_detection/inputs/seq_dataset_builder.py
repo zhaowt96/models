@@ -22,8 +22,8 @@ Note: If users wishes to also use their own InputReaders with the Object
 Detection configuration framework, they should define their own builder function
 that wraps the build function.
 """
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 
 from tensorflow.contrib.training.python.training import sequence_queueing_state_saver as sqss
 from lstm_object_detection.inputs import tf_sequence_example_decoder

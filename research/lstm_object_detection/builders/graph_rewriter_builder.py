@@ -21,7 +21,7 @@ customization of freeze_bn_delay.
 """
 
 import re
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 from tensorflow.contrib import layers as contrib_layers
 from tensorflow.contrib import quantize as contrib_quantize
 from tensorflow.contrib.quantize.python import common

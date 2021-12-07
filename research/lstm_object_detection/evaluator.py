@@ -20,7 +20,7 @@ DetectionModel.
 
 """
 
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 from tensorflow.contrib import tfprof as contrib_tfprof
 from lstm_object_detection.metrics import coco_evaluation_all_frames
 from object_detection import eval_util

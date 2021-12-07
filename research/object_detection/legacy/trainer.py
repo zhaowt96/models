@@ -21,8 +21,8 @@ DetectionModel.
 
 import functools
 
-import tensorflow.compat.v1 as tf
-import tf_slim as slim
+import tensorflow as tf
+slim = tf.contrib.slim
 
 from object_detection.builders import optimizer_builder
 from object_detection.builders import preprocessor_builder
