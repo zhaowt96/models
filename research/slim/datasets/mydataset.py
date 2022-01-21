@@ -30,9 +30,9 @@ from datasets import dataset_utils
 
 # _FILE_PATTERN = 'flowers_%s_*.tfrecord'
 _FILE_PATTERN = 'mydataset_%s_*.tfrecord'
-SPLITS_TO_SIZES = {'train': 15608, 'validation': 3891}
+SPLITS_TO_SIZES = {'train': 13785, 'validation': 3439}
 
-_NUM_CLASSES = 19
+_NUM_CLASSES = 15
 
 _ITEMS_TO_DESCRIPTIONS = {
     'image': 'A color image of varying size.',
@@ -74,12 +74,14 @@ def get_split(split_name, dataset_dir, file_pattern=None, reader=None):
       'image/class/label': tf.FixedLenFeature(
           [], tf.int64, default_value=tf.zeros([], dtype=tf.int64)),
   }
-
+  
   items_to_handlers = {
       'image': slim.tfexample_decoder.Image(),
       'label': slim.tfexample_decoder.Tensor('image/class/label'),
   }
-
+  print("-------------------------*************------------------------")
+  print(tf.shape(items_to_handlers['image']))
+  
   decoder = slim.tfexample_decoder.TFExampleDecoder(
       keys_to_features, items_to_handlers)
 
